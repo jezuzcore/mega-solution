@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#050807" />
+  <meta name="description" content="MEGA SOLUTION — descubre el universo Apple." />
+  <title>MEGA SOLUTION | Apple Store Experience</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="announcement">TECNOLOGÍA QUE TE MUEVE <span>·</span> Descubre la nueva generación Apple</div>
+  <header class="nav" id="top">
+    <a class="brand" href="#top"><img src="assets/logo.png" alt="Mega Solution"><span>MEGA <b>SOLUTION</b></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+    <nav id="mainNav">
+      <a href="#novedades">Novedades</a><a href="#categorias">Categorías</a><a href="#catalogo">Tienda</a><a href="#experiencia">Experiencia</a><a href="#contacto">Contacto</a>
+    </nav>
+    <div class="nav-actions"><button class="icon-btn" id="searchToggle" aria-label="Buscar">⌕</button><button class="icon-btn cart-trigger" id="cartToggle" aria-label="Carrito">♧ <i id="cartCount">0</i></button></div>
+  </header>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-glow"></div><div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> EL UNIVERSO APPLE, EN UN SOLO LUGAR</div>
+        <h1>La próxima<br><em>generación.</em><br>Está aquí.</h1>
+        <p>Descubre innovación, diseño y potencia. Encuentra tu próximo dispositivo Apple en MEGA SOLUTION.</p>
+        <div class="hero-buttons"><a class="btn primary" href="#novedades">Explorar novedades <span>↗</span></a><a class="btn ghost" href="#catalogo">Ver catálogo</a></div>
+        <div class="hero-note"><span class="note-line"></span> TECNOLOGÍA PARA IR MÁS ALLÁ</div>
+      </div>
+      <div class="hero-product reveal"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="product-glass"><img src="https://static.giga.de/e3/47/b5/b9ef5158c37b70a36b2b338119_cmUgMTMwMCAwA2U3YmY1MzczMjMx.jpg" alt="Referencia visual iPhone 18 Pro Max" onerror="this.src='https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=1000&q=85'"></div><div class="floating-tag"> <span>01 / 2026</span><b>iPhone 18 Pro Max</b><small>Descubre la nueva era Pro</small></div></div>
+      <div class="hero-bottom"><span>DESLIZA PARA DESCUBRIR</span><span class="scroll-mark">↓</span><span>01 — 05</span></div>
+    </section>
+
+    <section class="ticker"><div class="ticker-track"><span>INNOVACIÓN</span><b>✳</b><span>DISEÑO</span><b>✳</b><span>TECNOLOGÍA</span><b>✳</b><span>EXPERIENCIA</span><b>✳</b><span>INNOVACIÓN</span><b>✳</b><span>DISEÑO</span><b>✳</b><span>TECNOLOGÍA</span></div></section>
+
+    <section class="section latest" id="novedades">
+      <div class="section-head reveal"><div><div class="eyebrow dark">01 — LO MÁS NUEVO</div><h2>El futuro tiene<br><em>nuevas formas.</em></h2></div><p>Una selección de dispositivos de última generación para quienes siempre quieren ir un paso adelante.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card duo-card reveal"><div class="feature-text"><span class="tag">NUEVO · PLEGABLE</span><h3>iPhone Duo</h3><p>Dos formas de verlo todo. Una experiencia que se despliega.</p><a href="#catalogo" class="text-link" data-category="iPhone">Descubrir iPhone Duo ↗</a></div><img src="https://hermes.media.static.aol.com/media/2026/09/10/30706c6e-b50e-3e46-8e97-e87fab0138f3/bf30e63a-d1f0-48ea-bfe4-23d6a113d289.jpg" alt="Imagen referencial de smartphone plegable" onerror="this.src='https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=85'"></article>
+        <article class="feature-card ipad-card reveal"><div class="feature-text"><span class="tag">CREATIVIDAD SIN LÍMITES</span><h3>iPad Pro</h3><p>Una gran idea merece una gran pantalla.</p><a href="#catalogo" class="text-link" data-category="iPad">Explorar iPad ↗</a></div><img src="https://www.apple.com/newsroom/images/2025/10/new-ipad-pro-14-inch-macbook-pro-now-available/article/Apple-iPad-Pro-Magic-Keyboard-01_big.jpg.large_2x.jpg" alt="iPad Pro con teclado" onerror="this.src='https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=900&q=85'"></article>
+        <article class="feature-card mac-card reveal"><div class="feature-text"><span class="tag">POTENCIA PROFESIONAL</span><h3>MacBook Pro</h3><p>Ideas grandes. Rendimiento a la altura.</p><a href="#catalogo" class="text-link" data-category="Mac">Ver la familia Mac ↗</a></div><img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1100&q=85" alt="MacBook Pro, imagen referencial"></article>
+      </div>
+      <p class="image-disclaimer">Las imágenes son referenciales. Modelos, colores y disponibilidad sujetos a confirmación.</p>
+    </section>
+
+    <section class="categories" id="categorias"><div class="section-head reveal"><div><div class="eyebrow">02 — EXPLORA EL UNIVERSO</div><h2>Encuentra tu<br><em>próximo favorito.</em></h2></div><p>Todo lo que buscas. Todo lo que te inspira. Explora nuestras categorías.</p></div>
+      <div class="category-row">
+        <button class="category-tile active" data-filter="Todos"><span>01</span><b>Todo</b><small>Ver catálogo completo ↗</small></button>
+        <button class="category-tile" data-filter="iPhone"><span>02</span><b>iPhone</b><small>Potencia en tu mano ↗</small></button>
+        <button class="category-tile" data-filter="iPad"><span>03</span><b>iPad</b><small>Ideas sin límites ↗</small></button>
+        <button class="category-tile" data-filter="Mac"><span>04</span><b>Mac</b><small>Hecho para crear ↗</small></button>
+        <button class="category-tile" data-filter="Watch"><span>05</span><b>Watch</b><small>Tu día en movimiento ↗</small></button>
+        <button class="category-tile" data-filter="Audio"><span>06</span><b>Audio</b><small>Escucha diferente ↗</small></button>
+      </div>
+    </section>
+
+    <section class="catalog section" id="catalogo"><div class="section-head reveal"><div><div class="eyebrow dark">03 — CATÁLOGO MEGA</div><h2>Tecnología que<br><em>va contigo.</em></h2></div><p>Explora la selección de productos Apple. Consulta por disponibilidad, capacidad y colores.</p></div>
+      <div class="catalog-tools"><div class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Busca iPhone, iPad, Mac..." aria-label="Buscar productos"></div><div class="filter-wrap"><label for="sortSelect">Ordenar</label><select id="sortSelect"><option value="featured">Destacados</option><option value="az">Nombre A–Z</option></select></div></div>
+      <div class="product-grid" id="productGrid"></div><div class="empty-state" id="emptyState" hidden>No encontramos productos con esa búsqueda.</div>
+    </section>
+
+    <section class="manifesto" id="experiencia"><div class="manifesto-image"></div><div class="manifesto-content reveal"><div class="eyebrow">04 — MÁS QUE UN DISPOSITIVO</div><h2>La tecnología<br>se siente.<br><em>Se vive.</em></h2><p>Una buena elección transforma tu día. Te ayudamos a encontrar el dispositivo que conecta con tu manera de crear, trabajar y disfrutar.</p><a class="btn primary" href="#contacto">Hablemos de tecnología <span>↗</span></a></div></section>
+
+    <section class="benefits section"><div class="eyebrow dark reveal">05 — COMPRA CON CONFIANZA</div><h2 class="reveal">Tu experiencia<br><em>es lo primero.</em></h2><div class="benefit-grid"><div class="benefit reveal"><span>✳</span><h3>Asesoría personalizada</h3><p>Te ayudamos a comparar y elegir el equipo ideal para ti.</p></div><div class="benefit reveal"><span>◈</span><h3>Atención cercana</h3><p>Resolvemos tus dudas antes y después de tu consulta.</p></div><div class="benefit reveal"><span>↗</span><h3>Catálogo actualizado</h3><p>Consulta modelos, configuraciones y disponibilidad.</p></div><div class="benefit reveal"><span>⌁</span><h3>Compra sencilla</h3><p>Solicita información y coordina tu compra por WhatsApp.</p></div></div></section>
+
+    <section class="contact" id="contacto"><div class="contact-orb"></div><div class="contact-inner reveal"><div class="eyebrow">06 — HABLEMOS</div><h2>¿Listo para<br>dar el siguiente<br><em>salto?</em></h2><p>Cuéntanos qué producto estás buscando. Nuestro equipo puede ayudarte a encontrarlo.</p><a class="btn primary" id="contactWhatsapp" href="#">Escríbenos por WhatsApp <span>↗</span></a><small>Atención directa por WhatsApp: +51 949 842 856</small>
+        <div class="store-info">
+          <div class="store-info-block"><span class="store-icon">⌖</span><div><b>Visítanos en Mall de Santa Anita</b><p><strong>Nivel 2</strong><br>Al costado de Multilents o a dos tiendas de OXXO.</p></div></div>
+          <div class="store-info-block"><span class="store-icon">◷</span><div><b>Horario de atención</b><p>Lunes a domingo<br><strong>10:00 a. m. – 10:00 p. m.</strong></p></div></div>
+        </div></div><div class="contact-side"><img src="assets/logo.png" alt="Mega Solution"><div>MEGA SOLUTION<br><span>TECNOLOGÍA PARA IR MÁS ALLÁ</span></div></div></section>
+  </main>
+  <footer><a class="footer-brand" href="#top">MEGA <b>SOLUTION</b></a><span>Mall de Santa Anita · Nivel 2 · Lun–Dom 10:00 a. m. – 10:00 p. m.</span><a href="#top">Volver arriba ↑</a></footer>
+
+  <div class="cart-overlay" id="cartOverlay"></div><aside class="cart-drawer" id="cartDrawer"><div class="drawer-head"><h3>Tu selección</h3><button id="cartClose" aria-label="Cerrar carrito">×</button></div><div id="cartItems" class="cart-items"><p class="cart-empty">Tu carrito está esperando algo increíble.</p></div><div class="cart-bottom"><div class="cart-total"><span>Productos</span><b id="cartTotal">0</b></div><button class="btn primary full" id="checkoutBtn">Consultar por WhatsApp ↗</button><small>Los precios y la disponibilidad se confirman con el equipo.</small></div></aside>
+  <a class="whatsapp-float" id="whatsappFloat" href="https://wa.me/51949842856" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">☏ <span>WhatsApp</span></a><div class="toast" id="toast">Añadido a tu selección</div>
+</body>
+</html>
